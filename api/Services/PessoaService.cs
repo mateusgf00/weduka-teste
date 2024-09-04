@@ -74,7 +74,7 @@ namespace api.Services
             }
             catch(Exception ex)
             {
-                serviceResponse.Mensagem = ex.Message;
+                serviceResponse.Mensagem = "oiiii";
                 serviceResponse.Sucesso = false;
             }
             return serviceResponse;
